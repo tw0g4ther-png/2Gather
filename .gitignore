@@ -1,0 +1,99 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Build directories (temporaires uniquement)
+**/build/
+**/ios/build/
+**/android/build/
+**/functions/build/
+
+# Xcode build data (temporaire)
+**/ios/XCBuildData/
+**/build/ios/XCBuildData/
+
+# Fichiers temporaires de développement
+*.tmp
+*.temp
+.cache/
+
+# ========================================
+# FICHIERS NÉCESSAIRES À LA COMPILATION
+# ========================================
+
+# Android - Keystores et configuration de signature
+!android/app/*.jks
+!android/key.properties
+!android/app/google-services.json
+
+# iOS - Certificats et profils de provisioning
+!ios/Runner/GoogleService-Info.plist
+!ios/Runner/*.p12
+!ios/Runner/*.mobileprovision
+!ios/Runner/Info.plist
+!ios/Runner/Runner.entitlements
+
+# Configuration Firebase
+!google-services.json
+!GoogleService-Info.plist
+
+# Configuration de build nécessaire
+!android/app/build.gradle
+!android/app/build.gradle.kts
+!android/build.gradle
+!android/build.gradle.kts
+!android/gradle.properties
+!android/local.properties
+!android/settings.gradle
+!android/settings.gradle.kts
+
+# Fichiers de configuration Flutter
+!pubspec.yaml
+!pubspec.lock
+!analysis_options.yaml
+!flutter_launcher_icons.yaml
+
+# Assets nécessaires
+!assets/
+!fonts/

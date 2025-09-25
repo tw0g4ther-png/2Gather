@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/nairod/fvm/versions/3.29.0/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/nairod/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/nairod/Downloads/Squirrel Lab/test_upgrade/android/app/.cxx/Debug/5g5b6733/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/nairod/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/nairod/Downloads/Squirrel Lab/test_upgrade/android/app/.cxx/Debug/5g5b6733/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

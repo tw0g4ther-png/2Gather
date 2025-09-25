@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "832813741534",
+    "project_id": "gather-10f2b",
+    "storage_bucket": "gather-10f2b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832813741534:android:e1e41d0d9e7444955fd94f",
+        "android_client_info": {
+          "package_name": "com.twogather.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832813741534-bn4j3foirub4k2rv96k6ogpbe1h7o799.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twogather.app",
+            "certificate_hash": "eed36f554dc29b947ebe49ee653579cbc1e7f763"
+          }
+        },
+        {
+          "client_id": "832813741534-8fbtgmjb9va2o5ct0q1k9qr2agqibcr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyrzpkYx9NqgglE6h8AQN1uLq6Mw5ueY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832813741534-8fbtgmjb9va2o5ct0q1k9qr2agqibcr2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "832813741534-44dukg5vbe7oj72faenrefdptlfog3ph.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fiestafamily.fiestaFamilyModern"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

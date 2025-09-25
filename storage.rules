@@ -1,0 +1,61 @@
+rules_version = '2';
+
+// Règles Firebase Storage pour TwoGather
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Images de profil utilisateur
+    match /users/{userId}/profil/{fileName} {
+      // Lecture: utilisateurs authentifiés peuvent voir toutes les images de profil
+      allow read: if request.auth != null;
+      
+      // Suppression: propriétaire uniquement (DELETE n'a pas de request.resource)
+      allow delete: if request.auth != null && request.auth.uid == userId;
+
+      // Écriture (upload/update): propriétaire uniquement et fichier image valide
+      allow write: if request.auth != null 
+                   && request.auth.uid == userId
+                   && isValidImageFile();
+    }
+    
+    // Cartes d'identité utilisateur
+    match /users/{userId}/identity/{fileName} {
+      // Lecture: utilisateurs authentifiés peuvent voir leurs propres cartes d'identité
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // Suppression: propriétaire uniquement
+      allow delete: if request.auth != null && request.auth.uid == userId;
+
+      // Écriture (upload/update): propriétaire uniquement et fichier image valide
+      allow write: if request.auth != null 
+                   && request.auth.uid == userId
+                   && isValidImageFile();
+    }
+    
+    // Images de fiestas
+    match /fiestas/{fiestaId}/{fileName} {
+      // Lecture: utilisateurs authentifiés
+      allow read: if request.auth != null;
+      
+      // Écriture: utilisateurs authentifiés peuvent uploader des images de fiestas
+      allow write: if request.auth != null && isValidImageFile();
+    }
+    
+    // Autres fichiers - accès restreint aux utilisateurs authentifiés
+    match /{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && isValidFile();
+    }
+  }
+}
+
+// Validation des fichiers image
+function isValidImageFile() {
+  return request.resource != null
+         && request.resource.contentType.matches('image/.*');
+}
+
+// Validation générale des fichiers
+function isValidFile() {
+  return request.resource != null
+         ;
+}

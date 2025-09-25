@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.896" height="15.896" viewBox="0 0 15.896 15.896">
+  <g id="vuesax_twotone_crown" data-name="vuesax/twotone/crown" transform="translate(-172 -380)">
+    <g id="crown" transform="translate(172 380)">
+      <path id="Vector" d="M9.79,11.257H3.564a.781.781,0,0,1-.682-.484L.14,3.1C-.251,2,.206,1.666,1.147,2.341L3.73,4.189a.7.7,0,0,0,1.106-.338L6,.745c.371-.994.987-.994,1.358,0L8.525,3.852a.693.693,0,0,0,1.1.338l2.424-1.729c1.033-.742,1.53-.364,1.106.835l-2.676,7.491A.809.809,0,0,1,9.79,11.257Z" transform="translate(1.271 1.315)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H7.286" transform="translate(4.305 14.572)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" opacity="0.485"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H3.312" transform="translate(6.292 9.273)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" opacity="0.485"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H15.9V15.9H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

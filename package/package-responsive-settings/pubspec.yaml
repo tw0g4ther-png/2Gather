@@ -1,0 +1,69 @@
+name: settings_kosmos
+description: A new Flutter package project.
+version: 1.0.1
+homepage: none
+publish_to: none
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  ####################
+  # Riverpod & Hooks #
+  ####################
+  hooks_riverpod: ^2.6.1
+
+  ###############
+  # Translating #
+  ###############
+  easy_localization: ^3.0.8
+
+  ##########
+  # Get_it #
+  ##########
+  get_it: ^8.0.2
+
+  #########
+  # Dartz #
+  #########
+  dartz: ^0.10.1
+  
+  ###############################
+  # Auto_Route And Url handling #
+  ###############################
+  auto_route: ^9.2.4
+
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.1.5
+  cached_network_image: ^3.4.1 
+  
+  ##################
+  # Kosmos Package #
+  ##################
+  core_kosmos:
+    path: ../package-core
+
+  ui_kosmos_v4:
+    path: ../package-ui-kosmos
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.4
+  image_picker: ^1.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  assets:
+    - assets/svg/
+    - assets/images/
+    - assets/images/img_default_user.png

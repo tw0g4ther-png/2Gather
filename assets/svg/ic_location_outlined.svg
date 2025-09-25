@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="location" transform="translate(-428 -182)">
+    <g id="location-2" data-name="location" transform="translate(428 182)">
+      <path id="Vector" d="M3.9,1.95A1.95,1.95,0,1,1,1.95,0,1.95,1.95,0,0,1,3.9,1.95Z" transform="translate(5.55 4.494)" fill="none" stroke="#4d5362" stroke-width="1.2" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M.152,4.056C1.383-1.356,9.4-1.35,10.627,4.063c.719,3.175-1.256,5.863-2.987,7.525a3.246,3.246,0,0,1-4.506,0C1.408,9.925-.567,7.231.152,4.056Z" transform="translate(2.111 1.25)" fill="none" stroke="#4d5362" stroke-width="1.2"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H15V15H0Z" transform="translate(15 15) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

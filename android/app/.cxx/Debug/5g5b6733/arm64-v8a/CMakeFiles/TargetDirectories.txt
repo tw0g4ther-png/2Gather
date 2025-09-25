@@ -1,0 +1,2 @@
+/Users/nairod/Downloads/Squirrel Lab/test_upgrade/android/app/.cxx/Debug/5g5b6733/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/nairod/Downloads/Squirrel Lab/test_upgrade/android/app/.cxx/Debug/5g5b6733/arm64-v8a/CMakeFiles/rebuild_cache.dir
